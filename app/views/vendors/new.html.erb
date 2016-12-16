@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Create Vendor</h1>
+
+  <%= form_for @vendor do |vendor| %>
+      <%= vendor.label :name %>
+      <br />
+      <%= vendor.text_field :name %>
+      <br />
+      <%= vendor.label :address %>
+      <br />
+      <%= vendor.text_field :address %>
+      <br />
+      <%= vendor.submit %>
+  <% end %>
+</div>
