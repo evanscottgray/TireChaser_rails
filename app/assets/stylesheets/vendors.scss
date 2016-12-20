@@ -133,17 +133,23 @@ portal a {
 #tireSearch {
   margin-top: 20px;
   margin-left: 10%;
+  width: 80%;
+  border-radius: 5px;
+  background-color: #383838;
+  height: 60px;
 
   b {
     color: #e5e5e5;
-    padding-right: 15px;
+    padding-right: 1%;
     font-weight: normal;
     font-size: 17px;
     margin-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 }
 #thebutton{
-  padding-left: 40%;
+  padding-left: 45%;
   padding-top: 15px;
   padding-bottom: 80px;
 }

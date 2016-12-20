@@ -52,6 +52,7 @@ ul.topnav li.icon {display: none;}
    padding-top: 20px;
    padding-bottom: 20px;
    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('GradientBG.jpg');
+   background-attachment: fixed;
  }
 
  body:before {
@@ -63,5 +64,6 @@ ul.topnav li.icon {display: none;}
      top: 0;
      left: 0;
      background: -webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,0.2) 0%,rgba(0,0,0,0.5) 100%);
+      background-attachment: fixed;
  }
  /*background end*/
